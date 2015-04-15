@@ -1,5 +1,8 @@
 <div class="nxtExample">
   <p class="boldText"> Show useage of ng repate</p>
 
-  <span class="repeatSpan" ng-repeat="n in repeatData"> {{n}} </span>
+  <span class="repeatSpan" ng-repeat="n in repeatData" ng-show = "n != 5">
+
+    {{n}}
+  </span>
 </div>
